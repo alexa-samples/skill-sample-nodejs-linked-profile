@@ -1,0 +1,13 @@
+{
+  "name": "skill-acct-link-demo",
+  "version": "1.0.0",
+  "description": "Account Linking Demo Skill",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ask-sdk": "^2.1.0",
+    "i18next": "^10.5.0",
+    "i18next-sprintf-postprocessor": "^0.2.2"
+  }
+}

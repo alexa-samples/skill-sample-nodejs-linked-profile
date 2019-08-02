@@ -1,0 +1,41 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "End To End Account Linking Demo Skill",
+          "examplePhrases": [
+            "Alexa open link demo",
+            "Alexa ask link demo for my information",
+            "Alexa tell link demo to provide my email address"
+          ],
+          "name": "End To End Account Linking Demo",
+          "description": "Sample skill to demonstrate account linking using OAUTH 2.0"
+        },
+        "en-AU": {
+          "summary": "End To End Account Linking Demo Skill",
+          "examplePhrases": [
+            "Alexa open link demo",
+            "Alexa ask link demo for my information",
+            "Alexa tell link demo to provide my email address"
+          ],
+          "name": "End To End Account Linking Demo",
+          "description": "Sample skill to demonstrate account linking using OAUTH 2.0"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-linked-profile"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

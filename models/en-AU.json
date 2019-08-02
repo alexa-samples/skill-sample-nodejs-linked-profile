@@ -1,0 +1,141 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "link demo",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SayHelloIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "hey",
+                        "good day",
+                        "howdy",
+                        "greetings",
+                        "namaste",
+                        "aloha",
+                        "hola",
+                        "bonjour",
+                        "hiya",
+                        "gday",
+                        "hi"
+                    ]
+                },
+                {
+                    "name": "RequestInfoIntent",
+                    "slots": [
+                        {
+                            "name": "infoTypeRequested",
+                            "type": "infoType"
+                        }
+                    ],
+                    "samples": [
+                        "tell me my {infoTypeRequested}",
+                        "what is my {infoTypeRequested}",
+                        "give me my {infoTypeRequested}",
+                        "{infoTypeRequested}",
+                        "what is {infoTypeRequested}",
+                        "what's {infoTypeRequested}",
+                        "what's my {infoTypeRequested}",
+                        "get me {infoTypeRequested}",
+                        "give me {infoTypeRequested}",
+                        "provide {infoTypeRequested}",
+                        "what are {infoTypeRequested}",
+                        "tell me {infoTypeRequested}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "infoType",
+                    "values": [
+                        {
+                            "id": "fullName",
+                            "name": {
+                                "value": "name",
+                                "synonyms": [
+                                    "full name",
+                                    "user name",
+                                    "complete name",
+                                    "who am i"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "streetAddress",
+                            "name": {
+                                "value": "street address",
+                                "synonyms": [
+                                    "mailing address",
+                                    "where I hang my hat",
+                                    "where I live",
+                                    "home address"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "phoneNumber",
+                            "name": {
+                                "value": "phone number",
+                                "synonyms": [
+                                    "mobile number",
+                                    "contact number",
+                                    "home number",
+                                    "telephone number",
+                                    "text address"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "emailAddress",
+                            "name": {
+                                "value": "email address",
+                                "synonyms": [
+                                    "email account",
+                                    "a. o. l. account",
+                                    "g. mail",
+                                    "electronic message",
+                                    "electronic mail address",
+                                    "online address"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "fullProfile",
+                            "name": {
+                                "value": "full profile",
+                                "synonyms": [
+                                    "everything about me",
+                                    "all you know about me",
+                                    "all my details",
+                                    "my data",
+                                    "full set of details",
+                                    "all my info",
+                                    "my entire profile",
+                                    "all my information",
+                                    "all of it"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
