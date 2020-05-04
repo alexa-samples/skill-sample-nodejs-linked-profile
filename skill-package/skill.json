@@ -29,12 +29,7 @@
       "distributionCountries": []
     },
     "apis": {
-      "custom": {
-        "endpoint": {
-          "sourceDir": "lambda/custom",
-          "uri": "ask-linked-profile"
-        }
-      }
+      "custom": {}
     },
     "manifestVersion": "1.0"
   }
