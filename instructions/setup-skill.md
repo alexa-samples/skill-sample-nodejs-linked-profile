@@ -35,6 +35,7 @@ https://developer.amazon.com/alexa/console/ask
         * For Oregon, enter `us-west-2`
         * For Tokyo, enter `ap-northeast-1`
         * For Ireland, enter `eu-west-1`
+1. Select the **Permissions tab**
 1. Scroll down to the **Execution Role** section. 
 1. Set the **Execution Role** to the role name that you created previously, i.e. **linked-profile-role**.
 1. Select **Save** at the top of the page.
