@@ -13,7 +13,7 @@ https://developer.amazon.com/alexa/console/ask
     * Select **Self Hosted**
 1. Select the **Start from scratch** template.
 1. Click the **Create a skill** button on the top-right. 
-1. Select **Interaction Model** >> **JSON Editor** on the left-side menu. Select the corresponding model for your locale from the [models](../models/) folder.  (E.g. for English-AU use en-AU.json)  Either drag/drop the file into the area of the JSON Editor that says **Drag and drop a .json file**, or copy/paste the contents of the file, being sure to replace the entirety of the existing interaction model.
+1. Select **Interaction Model** >> **JSON Editor** on the left-side menu. Select the corresponding model for your locale from the [models](../skill-package/interactionModels/custom/) folder.  (E.g. for English-AU use en-AU.json)  Either drag/drop the file into the area of the JSON Editor that says **Drag and drop a .json file**, or copy/paste the contents of the file, being sure to replace the entirety of the existing interaction model.
 1. Click the **Save Model** and then the **Build Model** buttons.
 
 ## Create AWS Lambda Function
